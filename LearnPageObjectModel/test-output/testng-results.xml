@@ -1,0 +1,1003 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="16" passed="13" failed="3" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-04-04T14:23:45 IST" name="Suite" finished-at="2022-04-04T14:28:33 IST" duration-ms="288187">
+    <groups>
+    </groups>
+    <test started-at="2022-04-04T14:23:45 IST" name="Test" finished-at="2022-04-04T14:25:40 IST" duration-ms="115139">
+      <class name="com.laeftaps.ui.test.DeleteLead_TC003">
+        <test-method is-config="true" signature="call()[pri:0, instance:com.laeftaps.ui.test.DeleteLead_TC003@46cdf8bd]" started-at="2022-04-04T14:23:45 IST" name="call" finished-at="2022-04-04T14:23:45 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- call -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.String,java.lang.String)[pri:0, instance:com.laeftaps.ui.test.DeleteLead_TC003@46cdf8bd]" started-at="2022-04-04T14:23:47 IST" name="beforeMethod" finished-at="2022-04-04T14:24:21 IST" duration-ms="34128" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://leaftaps.com/opentaps/]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="run_Tc003(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.laeftaps.ui.test.DeleteLead_TC003@46cdf8bd]" started-at="2022-04-04T14:24:21 IST" name="run_Tc003" data-provider="fetchdata" finished-at="2022-04-04T14:24:48 IST" duration-ms="26433" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Demosalesmanager]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[crmsfa]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[99]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- run_Tc003 -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.laeftaps.ui.test.DeleteLead_TC003@46cdf8bd]" started-at="2022-04-04T14:24:48 IST" name="afterMethod" finished-at="2022-04-04T14:24:55 IST" duration-ms="7558" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.String,java.lang.String)[pri:0, instance:com.laeftaps.ui.test.DeleteLead_TC003@46cdf8bd]" started-at="2022-04-04T14:24:55 IST" name="beforeMethod" finished-at="2022-04-04T14:25:07 IST" duration-ms="11432" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://leaftaps.com/opentaps/]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="run_Tc003(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.laeftaps.ui.test.DeleteLead_TC003@46cdf8bd]" started-at="2022-04-04T14:25:07 IST" name="run_Tc003" data-provider="fetchdata" finished-at="2022-04-04T14:25:32 IST" duration-ms="25395" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Demosalesmanager]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[crmsfa]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[99]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- run_Tc003 -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.laeftaps.ui.test.DeleteLead_TC003@46cdf8bd]" started-at="2022-04-04T14:25:32 IST" name="afterMethod" finished-at="2022-04-04T14:25:37 IST" duration-ms="5409" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- com.laeftaps.ui.test.DeleteLead_TC003 -->
+      <class name="com.laeftaps.ui.test.CreateLeat_TC001">
+        <test-method is-config="true" signature="call()[pri:0, instance:com.laeftaps.ui.test.CreateLeat_TC001@d86a6f]" started-at="2022-04-04T14:23:45 IST" name="call" finished-at="2022-04-04T14:23:45 IST" duration-ms="10" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- call -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.String,java.lang.String)[pri:0, instance:com.laeftaps.ui.test.CreateLeat_TC001@d86a6f]" started-at="2022-04-04T14:23:47 IST" name="beforeMethod" finished-at="2022-04-04T14:24:21 IST" duration-ms="34122" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://leaftaps.com/opentaps/]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="run_Tc001(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.laeftaps.ui.test.CreateLeat_TC001@d86a6f]" started-at="2022-04-04T14:24:21 IST" name="run_Tc001" data-provider="fetchdata" finished-at="2022-04-04T14:24:42 IST" duration-ms="21345" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Demosalesmanager]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[crmsfa]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[TL]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Hari]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[R]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[99]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- run_Tc001 -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.laeftaps.ui.test.CreateLeat_TC001@d86a6f]" started-at="2022-04-04T14:24:42 IST" name="afterMethod" finished-at="2022-04-04T14:24:49 IST" duration-ms="6271" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.String,java.lang.String)[pri:0, instance:com.laeftaps.ui.test.CreateLeat_TC001@d86a6f]" started-at="2022-04-04T14:24:49 IST" name="beforeMethod" finished-at="2022-04-04T14:24:59 IST" duration-ms="10495" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://leaftaps.com/opentaps/]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="run_Tc001(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.laeftaps.ui.test.CreateLeat_TC001@d86a6f]" started-at="2022-04-04T14:24:59 IST" name="run_Tc001" data-provider="fetchdata" finished-at="2022-04-04T14:25:24 IST" duration-ms="24837" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[DemoCSR]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[crmsfa]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[TL]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Sarath]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[M]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[99]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- run_Tc001 -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.laeftaps.ui.test.CreateLeat_TC001@d86a6f]" started-at="2022-04-04T14:25:24 IST" name="afterMethod" finished-at="2022-04-04T14:25:31 IST" duration-ms="7330" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- com.laeftaps.ui.test.CreateLeat_TC001 -->
+      <class name="com.laeftaps.ui.test.DuplicateLead_Tc005">
+        <test-method is-config="true" signature="call()[pri:0, instance:com.laeftaps.ui.test.DuplicateLead_Tc005@740cae06]" started-at="2022-04-04T14:23:45 IST" name="call" finished-at="2022-04-04T14:23:45 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- call -->
+      </class> <!-- com.laeftaps.ui.test.DuplicateLead_Tc005 -->
+      <class name="com.laeftaps.ui.test.EditLead_TC004">
+        <test-method is-config="true" signature="call()[pri:0, instance:com.laeftaps.ui.test.EditLead_TC004@f0c8a99]" started-at="2022-04-04T14:23:45 IST" name="call" finished-at="2022-04-04T14:23:45 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- call -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.String,java.lang.String)[pri:0, instance:com.laeftaps.ui.test.EditLead_TC004@f0c8a99]" started-at="2022-04-04T14:23:47 IST" name="beforeMethod" finished-at="2022-04-04T14:24:23 IST" duration-ms="36120" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://leaftaps.com/opentaps/]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="run_Tc003(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.laeftaps.ui.test.EditLead_TC004@f0c8a99]" started-at="2022-04-04T14:24:23 IST" name="run_Tc003" data-provider="fetchdata" finished-at="2022-04-04T14:24:52 IST" duration-ms="29120" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Demosalesmanager]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[crmsfa]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[99]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[tcs]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"css selector","selector":"#viewLead_companyName_sp"}
+  (Session info: chrome=100.0.4896.60)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.1.1', revision: 'e8fcc2cecf'
+System info: host: 'DESKTOP-8K46K7U', ip: '192.168.29.154', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [7a8c14e80a8f5920b973f2c3e614e8c5, findElement {using=id, value=viewLead_companyName_sp}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 100.0.4896.60, chrome: {chromedriverVersion: 100.0.4896.60 (6a5d10861ce8..., userDataDir: C:\Users\Praveen\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:63710}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:63710/devtoo..., se:cdpVersion: 100.0.4896.60, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 7a8c14e80a8f5920b973f2c3e614e8c5]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#viewLead_companyName_sp"}
+  (Session info: chrome=100.0.4896.60)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.1.1', revision: 'e8fcc2cecf'
+System info: host: 'DESKTOP-8K46K7U', ip: '192.168.29.154', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [7a8c14e80a8f5920b973f2c3e614e8c5, findElement {using=id, value=viewLead_companyName_sp}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 100.0.4896.60, chrome: {chromedriverVersion: 100.0.4896.60 (6a5d10861ce8..., userDataDir: C:\Users\Praveen\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:63710}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:63710/devtoo..., se:cdpVersion: 100.0.4896.60, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 7a8c14e80a8f5920b973f2c3e614e8c5
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:78)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:367)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:359)
+at com.laeftaps.ui.pages.viewLead.verifyLead(viewLead.java:13)
+at com.laeftaps.ui.test.EditLead_TC004.run_Tc003(EditLead_TC004.java:33)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+at java.base/java.lang.Thread.run(Thread.java:831)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- run_Tc003 -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.laeftaps.ui.test.EditLead_TC004@f0c8a99]" started-at="2022-04-04T14:24:52 IST" name="afterMethod" finished-at="2022-04-04T14:24:59 IST" duration-ms="6797" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.String,java.lang.String)[pri:0, instance:com.laeftaps.ui.test.EditLead_TC004@f0c8a99]" started-at="2022-04-04T14:24:59 IST" name="beforeMethod" finished-at="2022-04-04T14:25:10 IST" duration-ms="10641" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://leaftaps.com/opentaps/]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="run_Tc003(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.laeftaps.ui.test.EditLead_TC004@f0c8a99]" started-at="2022-04-04T14:25:10 IST" name="run_Tc003" data-provider="fetchdata" finished-at="2022-04-04T14:25:36 IST" duration-ms="26239" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Demosalesmanager]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[crmsfa]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[99]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[tcs]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"css selector","selector":"#viewLead_companyName_sp"}
+  (Session info: chrome=100.0.4896.60)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.1.1', revision: 'e8fcc2cecf'
+System info: host: 'DESKTOP-8K46K7U', ip: '192.168.29.154', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [2681714e6cddb12d1406f404bd16f886, findElement {using=id, value=viewLead_companyName_sp}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 100.0.4896.60, chrome: {chromedriverVersion: 100.0.4896.60 (6a5d10861ce8..., userDataDir: C:\Users\Praveen\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:63901}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:63901/devtoo..., se:cdpVersion: 100.0.4896.60, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 2681714e6cddb12d1406f404bd16f886]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#viewLead_companyName_sp"}
+  (Session info: chrome=100.0.4896.60)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.1.1', revision: 'e8fcc2cecf'
+System info: host: 'DESKTOP-8K46K7U', ip: '192.168.29.154', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [2681714e6cddb12d1406f404bd16f886, findElement {using=id, value=viewLead_companyName_sp}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 100.0.4896.60, chrome: {chromedriverVersion: 100.0.4896.60 (6a5d10861ce8..., userDataDir: C:\Users\Praveen\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:63901}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:63901/devtoo..., se:cdpVersion: 100.0.4896.60, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 2681714e6cddb12d1406f404bd16f886
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:78)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:367)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:359)
+at com.laeftaps.ui.pages.viewLead.verifyLead(viewLead.java:13)
+at com.laeftaps.ui.test.EditLead_TC004.run_Tc003(EditLead_TC004.java:33)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+at java.base/java.lang.Thread.run(Thread.java:831)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- run_Tc003 -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.laeftaps.ui.test.EditLead_TC004@f0c8a99]" started-at="2022-04-04T14:25:36 IST" name="afterMethod" finished-at="2022-04-04T14:25:40 IST" duration-ms="4144" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- com.laeftaps.ui.test.EditLead_TC004 -->
+      <class name="com.laeftaps.ui.test.MergeLead_TC002">
+        <test-method is-config="true" signature="call()[pri:0, instance:com.laeftaps.ui.test.MergeLead_TC002@2a7f1f10]" started-at="2022-04-04T14:23:45 IST" name="call" finished-at="2022-04-04T14:23:45 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- call -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.String,java.lang.String)[pri:0, instance:com.laeftaps.ui.test.MergeLead_TC002@2a7f1f10]" started-at="2022-04-04T14:23:47 IST" name="beforeMethod" finished-at="2022-04-04T14:24:21 IST" duration-ms="34120" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://leaftaps.com/opentaps/]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="run_Tc003(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.laeftaps.ui.test.MergeLead_TC002@2a7f1f10]" started-at="2022-04-04T14:24:21 IST" name="run_Tc003" data-provider="fetchdata" finished-at="2022-04-04T14:24:47 IST" duration-ms="26251" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Demosalesmanager]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[crmsfa]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[hari]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[gopi]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- run_Tc003 -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.laeftaps.ui.test.MergeLead_TC002@2a7f1f10]" started-at="2022-04-04T14:24:47 IST" name="afterMethod" finished-at="2022-04-04T14:24:54 IST" duration-ms="6169" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.String,java.lang.String)[pri:0, instance:com.laeftaps.ui.test.MergeLead_TC002@2a7f1f10]" started-at="2022-04-04T14:24:54 IST" name="beforeMethod" finished-at="2022-04-04T14:25:06 IST" duration-ms="12060" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://leaftaps.com/opentaps/]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="run_Tc003(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.laeftaps.ui.test.MergeLead_TC002@2a7f1f10]" started-at="2022-04-04T14:25:06 IST" name="run_Tc003" data-provider="fetchdata" finished-at="2022-04-04T14:25:33 IST" duration-ms="27678" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Demosalesmanager]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[crmsfa]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[hari]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[gopi]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- run_Tc003 -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.laeftaps.ui.test.MergeLead_TC002@2a7f1f10]" started-at="2022-04-04T14:25:33 IST" name="afterMethod" finished-at="2022-04-04T14:25:38 IST" duration-ms="4768" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- com.laeftaps.ui.test.MergeLead_TC002 -->
+    </test> <!-- Test -->
+    <test started-at="2022-04-04T14:25:40 IST" name="Test2" finished-at="2022-04-04T14:28:33 IST" duration-ms="173006">
+      <class name="com.laeftaps.ui.test.DeleteLead_TC003">
+        <test-method is-config="true" signature="call()[pri:0, instance:com.laeftaps.ui.test.DeleteLead_TC003@15043a2f]" started-at="2022-04-04T14:25:40 IST" name="call" finished-at="2022-04-04T14:25:40 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- call -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.String,java.lang.String)[pri:0, instance:com.laeftaps.ui.test.DeleteLead_TC003@15043a2f]" started-at="2022-04-04T14:25:40 IST" name="beforeMethod" finished-at="2022-04-04T14:26:17 IST" duration-ms="36502" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://leaftaps.com/opentaps/]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="run_Tc003(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.laeftaps.ui.test.DeleteLead_TC003@15043a2f]" started-at="2022-04-04T14:26:17 IST" name="run_Tc003" data-provider="fetchdata" finished-at="2022-04-04T14:26:56 IST" duration-ms="39207" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Demosalesmanager]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[crmsfa]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[99]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- run_Tc003 -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.laeftaps.ui.test.DeleteLead_TC003@15043a2f]" started-at="2022-04-04T14:26:56 IST" name="afterMethod" finished-at="2022-04-04T14:27:03 IST" duration-ms="7105" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.String,java.lang.String)[pri:0, instance:com.laeftaps.ui.test.DeleteLead_TC003@15043a2f]" started-at="2022-04-04T14:27:03 IST" name="beforeMethod" finished-at="2022-04-04T14:27:23 IST" duration-ms="19975" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://leaftaps.com/opentaps/]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="run_Tc003(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.laeftaps.ui.test.DeleteLead_TC003@15043a2f]" started-at="2022-04-04T14:27:23 IST" name="run_Tc003" data-provider="fetchdata" finished-at="2022-04-04T14:28:04 IST" duration-ms="40304" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Demosalesmanager]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[crmsfa]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[99]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- run_Tc003 -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.laeftaps.ui.test.DeleteLead_TC003@15043a2f]" started-at="2022-04-04T14:28:04 IST" name="afterMethod" finished-at="2022-04-04T14:28:23 IST" duration-ms="19473" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- com.laeftaps.ui.test.DeleteLead_TC003 -->
+      <class name="com.laeftaps.ui.test.CreateLeat_TC001">
+        <test-method is-config="true" signature="call()[pri:0, instance:com.laeftaps.ui.test.CreateLeat_TC001@196a42c3]" started-at="2022-04-04T14:25:40 IST" name="call" finished-at="2022-04-04T14:25:40 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- call -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.String,java.lang.String)[pri:0, instance:com.laeftaps.ui.test.CreateLeat_TC001@196a42c3]" started-at="2022-04-04T14:25:40 IST" name="beforeMethod" finished-at="2022-04-04T14:26:17 IST" duration-ms="36471" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://leaftaps.com/opentaps/]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="run_Tc001(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.laeftaps.ui.test.CreateLeat_TC001@196a42c3]" started-at="2022-04-04T14:26:17 IST" name="run_Tc001" data-provider="fetchdata" finished-at="2022-04-04T14:26:50 IST" duration-ms="33452" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Demosalesmanager]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[crmsfa]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[TL]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Hari]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[R]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[99]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- run_Tc001 -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.laeftaps.ui.test.CreateLeat_TC001@196a42c3]" started-at="2022-04-04T14:26:50 IST" name="afterMethod" finished-at="2022-04-04T14:27:04 IST" duration-ms="13165" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.String,java.lang.String)[pri:0, instance:com.laeftaps.ui.test.CreateLeat_TC001@196a42c3]" started-at="2022-04-04T14:27:04 IST" name="beforeMethod" finished-at="2022-04-04T14:27:24 IST" duration-ms="20540" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://leaftaps.com/opentaps/]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="run_Tc001(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.laeftaps.ui.test.CreateLeat_TC001@196a42c3]" started-at="2022-04-04T14:27:24 IST" name="run_Tc001" data-provider="fetchdata" finished-at="2022-04-04T14:28:01 IST" duration-ms="36912" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[DemoCSR]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[crmsfa]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[TL]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Sarath]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[M]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[99]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- run_Tc001 -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.laeftaps.ui.test.CreateLeat_TC001@196a42c3]" started-at="2022-04-04T14:28:01 IST" name="afterMethod" finished-at="2022-04-04T14:28:20 IST" duration-ms="18526" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- com.laeftaps.ui.test.CreateLeat_TC001 -->
+      <class name="com.laeftaps.ui.test.DuplicateLead_Tc005">
+        <test-method is-config="true" signature="call()[pri:0, instance:com.laeftaps.ui.test.DuplicateLead_Tc005@7f485fda]" started-at="2022-04-04T14:25:40 IST" name="call" finished-at="2022-04-04T14:25:40 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- call -->
+      </class> <!-- com.laeftaps.ui.test.DuplicateLead_Tc005 -->
+      <class name="com.laeftaps.ui.test.EditLead_TC004">
+        <test-method is-config="true" signature="call()[pri:0, instance:com.laeftaps.ui.test.EditLead_TC004@4b29d1d2]" started-at="2022-04-04T14:25:40 IST" name="call" finished-at="2022-04-04T14:25:40 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- call -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.String,java.lang.String)[pri:0, instance:com.laeftaps.ui.test.EditLead_TC004@4b29d1d2]" started-at="2022-04-04T14:25:40 IST" name="beforeMethod" finished-at="2022-04-04T14:26:17 IST" duration-ms="36506" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://leaftaps.com/opentaps/]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="run_Tc003(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.laeftaps.ui.test.EditLead_TC004@4b29d1d2]" started-at="2022-04-04T14:26:17 IST" name="run_Tc003" data-provider="fetchdata" finished-at="2022-04-04T14:27:01 IST" duration-ms="44265" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Demosalesmanager]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[crmsfa]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[99]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[tcs]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"css selector","selector":"#viewLead_companyName_sp"}
+  (Session info: MicrosoftEdge=100.0.1185.29)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.1.1', revision: 'e8fcc2cecf'
+System info: host: 'DESKTOP-8K46K7U', ip: '192.168.29.154', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.1'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [387a13028473f310ca1a292aa55ec528, findElement {using=id, value=viewLead_companyName_sp}]
+Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 100.0.1185.29, javascriptEnabled: true, ms:edgeOptions: {debuggerAddress: localhost:64073}, msedge: {msedgedriverVersion: 100.0.1185.29 (1feddedadb21..., userDataDir: C:\Users\Praveen\AppData\Lo...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:64073/devtoo..., se:cdpVersion: 100.0.1185.29, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 387a13028473f310ca1a292aa55ec528]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#viewLead_companyName_sp"}
+  (Session info: MicrosoftEdge=100.0.1185.29)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.1.1', revision: 'e8fcc2cecf'
+System info: host: 'DESKTOP-8K46K7U', ip: '192.168.29.154', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.1'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [387a13028473f310ca1a292aa55ec528, findElement {using=id, value=viewLead_companyName_sp}]
+Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 100.0.1185.29, javascriptEnabled: true, ms:edgeOptions: {debuggerAddress: localhost:64073}, msedge: {msedgedriverVersion: 100.0.1185.29 (1feddedadb21..., userDataDir: C:\Users\Praveen\AppData\Lo...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:64073/devtoo..., se:cdpVersion: 100.0.1185.29, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 387a13028473f310ca1a292aa55ec528
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:78)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:367)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:359)
+at com.laeftaps.ui.pages.viewLead.verifyLead(viewLead.java:13)
+at com.laeftaps.ui.test.EditLead_TC004.run_Tc003(EditLead_TC004.java:33)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+at java.base/java.lang.Thread.run(Thread.java:831)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- run_Tc003 -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.laeftaps.ui.test.EditLead_TC004@4b29d1d2]" started-at="2022-04-04T14:27:01 IST" name="afterMethod" finished-at="2022-04-04T14:27:03 IST" duration-ms="2050" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.String,java.lang.String)[pri:0, instance:com.laeftaps.ui.test.EditLead_TC004@4b29d1d2]" started-at="2022-04-04T14:27:03 IST" name="beforeMethod" finished-at="2022-04-04T14:27:24 IST" duration-ms="20861" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://leaftaps.com/opentaps/]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="run_Tc003(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.laeftaps.ui.test.EditLead_TC004@4b29d1d2]" started-at="2022-04-04T14:27:24 IST" name="run_Tc003" data-provider="fetchdata" finished-at="2022-04-04T14:28:32 IST" duration-ms="67395" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Demosalesmanager]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[crmsfa]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[99]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[tcs]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- run_Tc003 -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.laeftaps.ui.test.EditLead_TC004@4b29d1d2]" started-at="2022-04-04T14:28:32 IST" name="afterMethod" finished-at="2022-04-04T14:28:33 IST" duration-ms="1593" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- com.laeftaps.ui.test.EditLead_TC004 -->
+      <class name="com.laeftaps.ui.test.MergeLead_TC002">
+        <test-method is-config="true" signature="call()[pri:0, instance:com.laeftaps.ui.test.MergeLead_TC002@4c60d6e9]" started-at="2022-04-04T14:25:40 IST" name="call" finished-at="2022-04-04T14:25:40 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- call -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.String,java.lang.String)[pri:0, instance:com.laeftaps.ui.test.MergeLead_TC002@4c60d6e9]" started-at="2022-04-04T14:25:41 IST" name="beforeMethod" finished-at="2022-04-04T14:26:17 IST" duration-ms="36436" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://leaftaps.com/opentaps/]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="run_Tc003(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.laeftaps.ui.test.MergeLead_TC002@4c60d6e9]" started-at="2022-04-04T14:26:17 IST" name="run_Tc003" data-provider="fetchdata" finished-at="2022-04-04T14:27:00 IST" duration-ms="43263" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Demosalesmanager]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[crmsfa]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[hari]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[gopi]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- run_Tc003 -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.laeftaps.ui.test.MergeLead_TC002@4c60d6e9]" started-at="2022-04-04T14:27:00 IST" name="afterMethod" finished-at="2022-04-04T14:27:05 IST" duration-ms="4834" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.String,java.lang.String)[pri:0, instance:com.laeftaps.ui.test.MergeLead_TC002@4c60d6e9]" started-at="2022-04-04T14:27:05 IST" name="beforeMethod" finished-at="2022-04-04T14:27:24 IST" duration-ms="18506" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://leaftaps.com/opentaps/]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="run_Tc003(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.laeftaps.ui.test.MergeLead_TC002@4c60d6e9]" started-at="2022-04-04T14:27:24 IST" name="run_Tc003" data-provider="fetchdata" finished-at="2022-04-04T14:28:24 IST" duration-ms="60543" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Demosalesmanager]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[crmsfa]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[hari]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[gopi]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- run_Tc003 -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.laeftaps.ui.test.MergeLead_TC002@4c60d6e9]" started-at="2022-04-04T14:28:24 IST" name="afterMethod" finished-at="2022-04-04T14:28:29 IST" duration-ms="5200" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- com.laeftaps.ui.test.MergeLead_TC002 -->
+    </test> <!-- Test2 -->
+  </suite> <!-- Suite -->
+</testng-results>
