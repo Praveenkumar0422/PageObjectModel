@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Test</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>6/2/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>2/2/0</td>
 </tr><tr>
-<td>Started on:</td><td>Mon Apr 04 14:23:45 IST 2022</td>
+<td>Started on:</td><td>Sat Apr 23 16:51:36 IST 2022</td>
 </tr>
-<tr><td>Total time:</td><td>115 seconds (115139 ms)</td>
+<tr><td>Total time:</td><td>309 seconds (309931 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -75,16 +75,16 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='com.laeftaps.ui.test.EditLead_TC004.run_Tc003()'><b>run_Tc003</b><br>Test class: com.laeftaps.ui.test.EditLead_TC004<br>Parameters: Demosalesmanager, crmsfa, 99, tcs</td>
-<td><div><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;#viewLead_companyName_sp&quot;}
-  (Session info: chrome=100.0.4896.60)
+<td title='com.laeftaps.ui.test.MergeLead_TC002.run_Tc003()'><b>run_Tc003</b><br>Test class: com.laeftaps.ui.test.MergeLead_TC002<br>Parameters: Demosalesmanager, crmsfa, hari, gopi</td>
+<td><div><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//div[@class=&apos;x-grid3-cell-inner x-grid3-col-partyId&apos;]/a&quot;}
+  (Session info: chrome=100.0.4896.127)
 For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
 Build info: version: &apos;4.1.1&apos;, revision: &apos;e8fcc2cecf&apos;
 System info: host: &apos;DESKTOP-8K46K7U&apos;, ip: &apos;192.168.29.154&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;16.0.1&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [7a8c14e80a8f5920b973f2c3e614e8c5, findElement {using=id, value=viewLead_companyName_sp}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 100.0.4896.60, chrome: {chromedriverVersion: 100.0.4896.60 (6a5d10861ce8..., userDataDir: C:\Users\Praveen\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:63710}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:63710/devtoo..., se:cdpVersion: 100.0.4896.60, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 7a8c14e80a8f5920b973f2c3e614e8c5
+Command: [3be31f9ae5373d8896d163c116c4a06d, findElement {using=xpath, value=//div[@class=&apos;x-grid3-cell-inner x-grid3-col-partyId&apos;]/a}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 100.0.4896.127, chrome: {chromedriverVersion: 100.0.4896.60 (6a5d10861ce8..., userDataDir: C:\Users\Praveen\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:50513}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:50513/devtoo..., se:cdpVersion: 100.0.4896.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 3be31f9ae5373d8896d163c116c4a06d
 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
@@ -96,21 +96,19 @@ Session ID: 7a8c14e80a8f5920b973f2c3e614e8c5
 	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:367)
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:359)
-	at com.laeftaps.ui.pages.viewLead.verifyLead(viewLead.java:13)
-	at com.laeftaps.ui.test.EditLead_TC004.run_Tc003(EditLead_TC004.java:33)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
-	at java.base/java.lang.Thread.run(Thread.java:831)
-... Removed 17 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1817022110", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1817022110'><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;#viewLead_companyName_sp&quot;}
-  (Session info: chrome=100.0.4896.60)
+	at com.laeftaps.ui.pages.WindowFromPage.clickSecondLead(WindowFromPage.java:45)
+	at com.laeftaps.ui.test.MergeLead_TC002.run_Tc003(MergeLead_TC002.java:30)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 32 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace199933291", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace199933291'><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//div[@class=&apos;x-grid3-cell-inner x-grid3-col-partyId&apos;]/a&quot;}
+  (Session info: chrome=100.0.4896.127)
 For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
 Build info: version: &apos;4.1.1&apos;, revision: &apos;e8fcc2cecf&apos;
 System info: host: &apos;DESKTOP-8K46K7U&apos;, ip: &apos;192.168.29.154&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;16.0.1&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [7a8c14e80a8f5920b973f2c3e614e8c5, findElement {using=id, value=viewLead_companyName_sp}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 100.0.4896.60, chrome: {chromedriverVersion: 100.0.4896.60 (6a5d10861ce8..., userDataDir: C:\Users\Praveen\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:63710}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:63710/devtoo..., se:cdpVersion: 100.0.4896.60, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 7a8c14e80a8f5920b973f2c3e614e8c5
+Command: [3be31f9ae5373d8896d163c116c4a06d, findElement {using=xpath, value=//div[@class=&apos;x-grid3-cell-inner x-grid3-col-partyId&apos;]/a}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 100.0.4896.127, chrome: {chromedriverVersion: 100.0.4896.60 (6a5d10861ce8..., userDataDir: C:\Users\Praveen\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:50513}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:50513/devtoo..., se:cdpVersion: 100.0.4896.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 3be31f9ae5373d8896d163c116c4a06d
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:78)
 	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -127,8 +125,8 @@ Session ID: 7a8c14e80a8f5920b973f2c3e614e8c5
 	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:367)
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:359)
-	at com.laeftaps.ui.pages.viewLead.verifyLead(viewLead.java:13)
-	at com.laeftaps.ui.test.EditLead_TC004.run_Tc003(EditLead_TC004.java:33)
+	at com.laeftaps.ui.pages.WindowFromPage.clickSecondLead(WindowFromPage.java:45)
+	at com.laeftaps.ui.test.MergeLead_TC002.run_Tc003(MergeLead_TC002.java:30)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -141,23 +139,36 @@ Session ID: 7a8c14e80a8f5920b973f2c3e614e8c5
 	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
 	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
 	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
-	at java.base/java.lang.Thread.run(Thread.java:831)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:794)
+	at org.testng.TestRunner.run(TestRunner.java:596)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+	at org.testng.TestNG.runSuites(TestNG.java:1063)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 </pre></div></td>
-<td>29</td>
-<td>com.laeftaps.ui.test.EditLead_TC004@f0c8a99</td></tr>
+<td>38</td>
+<td>com.laeftaps.ui.test.MergeLead_TC002@3e27aa33</td></tr>
 <tr>
-<td title='com.laeftaps.ui.test.EditLead_TC004.run_Tc003()'><b>run_Tc003</b><br>Test class: com.laeftaps.ui.test.EditLead_TC004<br>Parameters: Demosalesmanager, crmsfa, 99, tcs</td>
-<td><div><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;#viewLead_companyName_sp&quot;}
-  (Session info: chrome=100.0.4896.60)
+<td title='com.laeftaps.ui.test.MergeLead_TC002.run_Tc003()'><b>run_Tc003</b><br>Test class: com.laeftaps.ui.test.MergeLead_TC002<br>Parameters: Demosalesmanager, crmsfa, hari, gopi</td>
+<td><div><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//div[@class=&apos;x-grid3-cell-inner x-grid3-col-partyId&apos;]/a&quot;}
+  (Session info: chrome=100.0.4896.127)
 For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
 Build info: version: &apos;4.1.1&apos;, revision: &apos;e8fcc2cecf&apos;
 System info: host: &apos;DESKTOP-8K46K7U&apos;, ip: &apos;192.168.29.154&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;16.0.1&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [2681714e6cddb12d1406f404bd16f886, findElement {using=id, value=viewLead_companyName_sp}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 100.0.4896.60, chrome: {chromedriverVersion: 100.0.4896.60 (6a5d10861ce8..., userDataDir: C:\Users\Praveen\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:63901}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:63901/devtoo..., se:cdpVersion: 100.0.4896.60, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 2681714e6cddb12d1406f404bd16f886
+Command: [a60699bd70e110df30776a192d743c50, findElement {using=xpath, value=//div[@class=&apos;x-grid3-cell-inner x-grid3-col-partyId&apos;]/a}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 100.0.4896.127, chrome: {chromedriverVersion: 100.0.4896.60 (6a5d10861ce8..., userDataDir: C:\Users\Praveen\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:50453}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:50453/devtoo..., se:cdpVersion: 100.0.4896.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: a60699bd70e110df30776a192d743c50
 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
@@ -169,21 +180,19 @@ Session ID: 2681714e6cddb12d1406f404bd16f886
 	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:367)
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:359)
-	at com.laeftaps.ui.pages.viewLead.verifyLead(viewLead.java:13)
-	at com.laeftaps.ui.test.EditLead_TC004.run_Tc003(EditLead_TC004.java:33)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
-	at java.base/java.lang.Thread.run(Thread.java:831)
-... Removed 17 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1753287325", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1753287325'><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;#viewLead_companyName_sp&quot;}
-  (Session info: chrome=100.0.4896.60)
+	at com.laeftaps.ui.pages.WindowFromPage.clickSecondLead(WindowFromPage.java:45)
+	at com.laeftaps.ui.test.MergeLead_TC002.run_Tc003(MergeLead_TC002.java:30)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 32 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace748673892", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace748673892'><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//div[@class=&apos;x-grid3-cell-inner x-grid3-col-partyId&apos;]/a&quot;}
+  (Session info: chrome=100.0.4896.127)
 For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
 Build info: version: &apos;4.1.1&apos;, revision: &apos;e8fcc2cecf&apos;
 System info: host: &apos;DESKTOP-8K46K7U&apos;, ip: &apos;192.168.29.154&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;16.0.1&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [2681714e6cddb12d1406f404bd16f886, findElement {using=id, value=viewLead_companyName_sp}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 100.0.4896.60, chrome: {chromedriverVersion: 100.0.4896.60 (6a5d10861ce8..., userDataDir: C:\Users\Praveen\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:63901}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:63901/devtoo..., se:cdpVersion: 100.0.4896.60, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 2681714e6cddb12d1406f404bd16f886
+Command: [a60699bd70e110df30776a192d743c50, findElement {using=xpath, value=//div[@class=&apos;x-grid3-cell-inner x-grid3-col-partyId&apos;]/a}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 100.0.4896.127, chrome: {chromedriverVersion: 100.0.4896.60 (6a5d10861ce8..., userDataDir: C:\Users\Praveen\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:50453}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:50453/devtoo..., se:cdpVersion: 100.0.4896.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: a60699bd70e110df30776a192d743c50
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:78)
 	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -200,8 +209,8 @@ Session ID: 2681714e6cddb12d1406f404bd16f886
 	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:367)
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:359)
-	at com.laeftaps.ui.pages.viewLead.verifyLead(viewLead.java:13)
-	at com.laeftaps.ui.test.EditLead_TC004.run_Tc003(EditLead_TC004.java:33)
+	at com.laeftaps.ui.pages.WindowFromPage.clickSecondLead(WindowFromPage.java:45)
+	at com.laeftaps.ui.test.MergeLead_TC002.run_Tc003(MergeLead_TC002.java:30)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -214,12 +223,25 @@ Session ID: 2681714e6cddb12d1406f404bd16f886
 	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
 	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
 	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
-	at java.base/java.lang.Thread.run(Thread.java:831)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:794)
+	at org.testng.TestRunner.run(TestRunner.java:596)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+	at org.testng.TestNG.runSuites(TestNG.java:1063)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 </pre></div></td>
-<td>26</td>
-<td>com.laeftaps.ui.test.EditLead_TC004@f0c8a99</td></tr>
+<td>20</td>
+<td>com.laeftaps.ui.test.MergeLead_TC002@3e27aa33</td></tr>
 </table><p>
 <table width='100%' border='1' class='invocation-passed'>
 <tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
@@ -231,33 +253,13 @@ Session ID: 2681714e6cddb12d1406f404bd16f886
 <tr>
 <td title='com.laeftaps.ui.test.CreateLeat_TC001.run_Tc001()'><b>run_Tc001</b><br>Test class: com.laeftaps.ui.test.CreateLeat_TC001<br>Parameters: DemoCSR, crmsfa, TL, Sarath, M, 99</td>
 <td></td>
-<td>24</td>
-<td>com.laeftaps.ui.test.CreateLeat_TC001@d86a6f</td></tr>
-<tr>
-<td title='com.laeftaps.ui.test.DeleteLead_TC003.run_Tc003()'><b>run_Tc003</b><br>Test class: com.laeftaps.ui.test.DeleteLead_TC003<br>Parameters: Demosalesmanager, crmsfa, 99</td>
-<td></td>
-<td>26</td>
-<td>com.laeftaps.ui.test.DeleteLead_TC003@46cdf8bd</td></tr>
+<td>19</td>
+<td>com.laeftaps.ui.test.CreateLeat_TC001@738dc9b</td></tr>
 <tr>
 <td title='com.laeftaps.ui.test.CreateLeat_TC001.run_Tc001()'><b>run_Tc001</b><br>Test class: com.laeftaps.ui.test.CreateLeat_TC001<br>Parameters: Demosalesmanager, crmsfa, TL, Hari, R, 99</td>
 <td></td>
-<td>21</td>
-<td>com.laeftaps.ui.test.CreateLeat_TC001@d86a6f</td></tr>
-<tr>
-<td title='com.laeftaps.ui.test.DeleteLead_TC003.run_Tc003()'><b>run_Tc003</b><br>Test class: com.laeftaps.ui.test.DeleteLead_TC003<br>Parameters: Demosalesmanager, crmsfa, 99</td>
-<td></td>
-<td>25</td>
-<td>com.laeftaps.ui.test.DeleteLead_TC003@46cdf8bd</td></tr>
-<tr>
-<td title='com.laeftaps.ui.test.MergeLead_TC002.run_Tc003()'><b>run_Tc003</b><br>Test class: com.laeftaps.ui.test.MergeLead_TC002<br>Parameters: Demosalesmanager, crmsfa, hari, gopi</td>
-<td></td>
-<td>27</td>
-<td>com.laeftaps.ui.test.MergeLead_TC002@2a7f1f10</td></tr>
-<tr>
-<td title='com.laeftaps.ui.test.MergeLead_TC002.run_Tc003()'><b>run_Tc003</b><br>Test class: com.laeftaps.ui.test.MergeLead_TC002<br>Parameters: Demosalesmanager, crmsfa, hari, gopi</td>
-<td></td>
-<td>26</td>
-<td>com.laeftaps.ui.test.MergeLead_TC002@2a7f1f10</td></tr>
+<td>39</td>
+<td>com.laeftaps.ui.test.CreateLeat_TC001@738dc9b</td></tr>
 </table><p>
 </body>
 </html>

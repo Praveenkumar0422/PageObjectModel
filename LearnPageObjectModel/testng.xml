@@ -8,9 +8,7 @@
     
    <class name="com.laeftaps.ui.test.CreateLeat_TC001"/>    
      <class name="com.laeftaps.ui.test.MergeLead_TC002"/>
-     <class name="com.laeftaps.ui.test.DeleteLead_TC003"/>
-      <class name="com.laeftaps.ui.test.EditLead_TC004"/>
-       <class name="com.laeftaps.ui.test.DuplicateLead_Tc005"/>
+     
       
     </classes>
   </test> <!-- Test -->
